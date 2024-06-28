@@ -1,0 +1,10 @@
+.container_wp{
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    z-index: 999;
+}
+.container_wp_img{
+    width: 100px;
+    height: 100px;
+}

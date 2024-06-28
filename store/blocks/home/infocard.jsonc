@@ -1,0 +1,35 @@
+{
+    "flex-layout.row#infocard": {
+        "title": "Infocard row",
+        "props": {
+            "blockClass": "infocard"
+        },
+        "children": [
+            "flex-layout.col#infocard",
+            "image#infocard"
+        ]
+    },
+    "flex-layout.col#infocard": {
+        "title": "Infocard col",
+        "children": [
+            "rich-text#infocard"
+        ]
+    },
+    "image#infocard": {
+        "title": "Infocard image",
+        "props": {
+            "blockClass": ["infocard", "image-info"],
+            "src": "assets/imgs/bombilla.png",
+            "alt": "Infocard image"
+        }
+    },
+    "rich-text#infocard": {
+        "title": "Infocard text",
+        "props": {
+            "blockClass": "infocard",
+            "text": "## ¿Por qué elegirnos?\n\n- **Calidad**\n- **Precio**\n- **Atención al cliente**\n- **Envíos rápidos**\n- **Garantía**",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER"
+        }
+    }
+}

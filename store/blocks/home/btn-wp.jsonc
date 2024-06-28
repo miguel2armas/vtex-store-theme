@@ -1,0 +1,21 @@
+{
+    "link#wp": {
+        "title": "Whatsapp image link",
+        "props": {
+            "href": "https://wa.me/+5712375678?text=Estoy%20interesado%20en%20un%20producto",
+            "target": "_blank",
+            "blockClass": "whatsapp"
+        },
+        "children": [
+            "image#wp2"
+        ]
+    },
+    "image#wp2":{
+        "title": "Whatsapp image",
+        "props": {
+            "blockClass": ["whatsapp", "image-info"],
+            "src": "assets/imgs/whatsapp.png",
+            "alt": "Whatsapp image "
+        }
+    }
+}
